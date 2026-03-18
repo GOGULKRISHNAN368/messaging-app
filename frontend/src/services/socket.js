@@ -134,5 +134,5 @@ class SocketService {
     return this.socket && this.socket.connected;
   }
 }
-
-export default new SocketService();
+const socketServiceInstance = new SocketService();
+export default socketServiceInstance;
