@@ -41,6 +41,7 @@ function App() {
         socketService.disconnect();
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentUser, token]);
 
   const initializeApp = async () => {
